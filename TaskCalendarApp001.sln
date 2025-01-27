@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCalendarApp001", "TaskCalendarApp001\TaskCalendarApp001.csproj", "{6D2E432D-483A-4932-B5C0-0B682E209254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCalendarApp001.Core", "TaskCalendarApp001.Core\TaskCalendarApp001.Core.csproj", "{E2706738-1A18-4F32-8C96-715163ADEF7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCalendarApp001.Tests", "TaskCalendarApp001.Tests\TaskCalendarApp001.Tests.csproj", "{AE9F5C01-E0DC-47AB-961B-A96628A7D4CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D2E432D-483A-4932-B5C0-0B682E209254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2E432D-483A-4932-B5C0-0B682E209254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2E432D-483A-4932-B5C0-0B682E209254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2E432D-483A-4932-B5C0-0B682E209254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2706738-1A18-4F32-8C96-715163ADEF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2706738-1A18-4F32-8C96-715163ADEF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2706738-1A18-4F32-8C96-715163ADEF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2706738-1A18-4F32-8C96-715163ADEF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9F5C01-E0DC-47AB-961B-A96628A7D4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9F5C01-E0DC-47AB-961B-A96628A7D4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9F5C01-E0DC-47AB-961B-A96628A7D4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9F5C01-E0DC-47AB-961B-A96628A7D4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E057A9B8-A88E-48CA-A405-4993F9C76E01}
+	EndGlobalSection
+EndGlobal

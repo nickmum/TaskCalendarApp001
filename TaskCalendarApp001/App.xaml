@@ -1,0 +1,23 @@
+﻿<Application x:Class="TaskCalendarApp001.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Calendar Colors -->
+            <SolidColorBrush x:Key="CalendarBackgroundBrush" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="CalendarGridLineBrush" Color="#E0E0E0"/>
+            <SolidColorBrush x:Key="TaskDefaultBrush" Color="#2196F3"/>
+
+            <!-- Text Styles -->
+            <Style x:Key="TimeSlotTextStyle" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="11"/>
+                <Setter Property="VerticalAlignment" Value="Top"/>
+                <Setter Property="Margin" Value="2"/>
+            </Style>
+
+            <!-- Future: Add more styles for tasks -->
+            <!-- Future: Add control templates -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

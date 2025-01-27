@@ -1,0 +1,25 @@
+﻿<Window x:Class="TaskCalendarApp001.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskCalendarApp001"
+        xmlns:views="clr-namespace:TaskCalendarApp001.Views"
+        mc:Ignorable="d"
+        Title="Task Calendar" Height="800" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Background="#F0F0F0" Margin="5">
+            <Button Content="New Task" Margin="5" Padding="10,5" Click="NewTask_Click"/>
+            <!-- Future: Add week navigation buttons -->
+            <!-- Future: Add view options -->
+            <!-- Future: Add search box -->
+        </StackPanel>
+
+        <views:CalendarGrid Grid.Row="1"/>
+    </Grid>
+</Window>
