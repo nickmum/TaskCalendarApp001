@@ -37,7 +37,7 @@ public partial class NewTaskWindow : Window
             StartTime = DateTime.Now,
             EndTime = DateTime.Now.AddHours(1),
             Title = "New Task",
-            Status = TaskStatus.NotStarted
+            Status = TaskCalendarApp001.Core.Models.TaskStatus.NotStarted
         };
 
         DialogResult = true;

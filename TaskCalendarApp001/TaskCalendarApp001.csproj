@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaskCalendarApp001.Core\TaskCalendarApp001.Core.csproj" />
-    <ProjectReference Include="..\TaskCalendarApp001.Tests\TaskCalendarApp001.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>
